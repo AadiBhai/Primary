@@ -9,5 +9,6 @@ int main()
  cin>>b;
  avg = (a+b)/2;
  cout<<"avg ="<<avg;
+ cout<<" ok";
  return 0;
 }
