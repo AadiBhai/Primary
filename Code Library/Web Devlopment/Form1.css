@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    border-radius: 19px;
+    overflow: hidden;
+    margin: 90px 310px 90px 330px;
+    box-shadow: 0px 0px 20px -10px;
+}
+
+.info {
+    background-color: #1abc9c;
+    /* or we can also use rgb(26, 188, 156, 255) */
+
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    margin-left: 30px;
+    margin-right: 110px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 42px;
+}
+
+.info input {
+    border: 0px;
+    border-radius: 14px;
+    text-decoration: solid;
+}
+
+::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #1abc9c;
+}
+
+.inbox{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.inbox input{
+    width: 470px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+}
+
+#imsg{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#imsg textarea{
+    width: 100%;
+    height: 260%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: medium;
+    border: 0px;
+    border-radius: 14px;
+}
+
+#sub{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 105px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+}
+
+#sub input{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.label{
+    font-size: large;
+    margin-left: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.address img {
+    max-width: 15%;
+    padding-top: 40px;
+}
+
+.phone img {
+    max-width: 23%;
+}
+
+.email img {
+    max-width: 17%;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 35px;
+    margin-bottom: 45px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin: 16px;
+}
+
+#fb {
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#fb img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#insta {
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#insta img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+#likdin {
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding-top: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#likdin img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+
+#twit {
+    background-color: #1abc9c;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px;
+    padding-top: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#twit img {
+    max-width: 80%;
+    max-height: 80%;
+}
