@@ -1,0 +1,119 @@
+/* For Tablet */
+/* Tablet portrait orientation */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    form {
+        flex-direction: column;
+        margin-left: 7em;
+        margin-right: 7em;
+        margin-top: 2em;
+        margin-bottom: 0px;
+    }
+
+    #imsg textarea {
+        width: 36em;
+        height: 10em;
+    }
+
+    #sub {
+        margin-top: 15px;
+    }
+
+    .links {
+        height: 30em;
+    }
+}
+
+/* Tablet landscape orientation */
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    form {
+        margin-left: 7em;
+        margin-right: 7em;
+        margin-top: 9em;
+        margin-bottom: 0px;
+    }
+
+    .inbox input {
+        width: 26em;
+    }
+}
+
+/* For Android phones */
+/* Android portrait orientation */
+@media screen and (min-width: 425px) and (max-width: 767px) and (orientation: portrait) {
+
+    form {
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    h1{
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .inbox input{
+        width: 22rem;
+    }
+    
+    #imsg textarea {
+        width: 22rem;
+        height: 10em;
+    }
+    
+    #sub {
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .links {
+        height: 25em;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) and (orientation: landscape) {
+    
+    form {
+        overflow: visible;
+        margin: 0px 0px 0px 0px;
+    }
+
+    h1{
+        font-size: 38px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .inbox{
+        margin-bottom: 5px;
+    }
+
+    .inbox input {
+        width: 22em;
+        height: 2em;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 1px;
+        margin-bottom: 8px;
+    }
+
+    #imsg textarea{
+        height: 8em;
+    }
+
+    #sub{
+        margin-top: 20px;
+        margin-bottom: 15px;
+        padding-top: 0px;
+    }
+
+    .address img{
+        padding-top: 0em;
+    }
+
+    .other{
+        margin-bottom: 0px;
+    }
+}
