@@ -1,0 +1,1 @@
+console.log("This is external script written in seprate file which is access using src attribute of script tag.")
