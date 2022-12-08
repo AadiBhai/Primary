@@ -1,14 +1,14 @@
 # operators
-# a = float(input("Enter a number: "))
-# b = float(input("Enter another number: "))
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a//b)
-# print(a%b)
-# print(a**b)
-# print(b**a)
+a = float(input("Enter a number: "))
+b = float(input("Enter another number: "))
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
+print(b**a)
 
 # User Input
 x = input("Enter your name: ") # input takes user input as a string but we can typecaste it as below
