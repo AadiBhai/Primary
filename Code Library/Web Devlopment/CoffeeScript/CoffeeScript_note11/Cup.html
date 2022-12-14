@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walking DOM</title>
+</head>
+<script>console.log(document.body)// document.body can sometimes be null if script is written before the body tag like this because we are trying to access the body tag before it is specify</script>
+
+<body><div class="first" style="font-size: 10; color: blue">First Child<p>child of div tag</p></div>
+    <div class="second">Siblings of body tag and everything inside body tag is div, span and even p inside div are all the decendent node of body tag</div>
+    <span style="font-size: 20; color: red">Last Child</span>
+</body>
+<script src="Script.js"></script>
+</html>
