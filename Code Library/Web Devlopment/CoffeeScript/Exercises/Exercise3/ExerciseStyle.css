@@ -1,0 +1,46 @@
+#main {
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    width: 40%;
+    height: 100%;
+}
+
+#first {
+    border-radius: 20px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    height: 50%;
+}
+
+#second {
+    text-align: center;
+    border-radius: 15px;
+    width: 88%;
+    height: 50%;
+    margin-left: 21px;
+    border: 2px solid black;
+    padding: 2%;
+    overflow-wrap: break-word;
+}
+
+button {
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 185px;
+    width: 40%;
+    padding: 1%;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+button:active{
+    background-color: gray;
+    box-shadow: 0 1px black;
+    transform: translateY(2px);
+}

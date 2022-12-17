@@ -18,3 +18,18 @@ print(" ")
 # format of range function is range(start:, end:, skip:)
 for x in range(3, 15, 3): # this will include 3 exclude 15 and skip every 2 numbers as we specify 3 at skip position
     print(x)
+print(" ")
+
+# while loop
+a = 0
+while(a < 5):
+    print(a)
+    a = a + 1
+print(" ")
+# we don't have do while loop in python but we can emulate it by writing exexution program before while loop like below
+b = int(input("Enter a number: "))
+print(b)
+b = b - 1
+while(b > 0):
+    print(b)
+    b = b - 1

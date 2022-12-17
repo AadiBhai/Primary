@@ -1,31 +1,33 @@
-// Driving eligibility based on age with confirmation and error
-let b
-do {
-    let age = prompt("Enter your age here")
-    age = Number.parseInt(age)
-    if (age < 0) {
-        console.error("Enter a valid age");
-        break;
-    }
-    const eligibility = (age) => {
-        return age >= 18 ? true : false
-    }
-    if (eligibility(age)) {
-        alert("You are eligible to Drive")
-    }
-    else {
-        alert("Wait until you become 18")
-    }
-    b = confirm("Do you want to see the prompt again")
-} while (b == true)
+// snake, water and gun game
 
-// Redirect to google.com if user enter a number greater than 4
-// let number = prompt("Enter a number")
-// number = Number.parseInt(number)
-// if (number > 4) {
-//     location.href = "https://google.com"
-// }
+const swg = ["S", "W", "G"]
+let swgRandom = swg[Math.floor(Math.random() * 3)]
+let pick = prompt("Enter your choice: ")
 
-// Change the background color according to user input
-// let color = prompt("Enter the background color")
-// document.body.style.background = color
+if (swgRandom === pick){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> It's A Tie`)
+}
+else if (swgRandom === "S" && pick === "W"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Lose`)
+}
+else if (swgRandom === "S" && pick === "G"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Win`)
+}
+else if (swgRandom === "G" && pick === "W"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Win`)
+}
+else if (swgRandom === "W" && pick === "S"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Win`)
+}
+else if (swgRandom === "G" && pick === "S"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Lose`)
+}
+else if (swgRandom === "W" && pick === "G"){
+    document.write(`Computer: ${swgRandom} <br> Player: ${pick} <br> You Lose`)
+}
+else {
+    alert("Please enter a valid input!")
+}
+
+// Here I got to know that return statement ends function execution and specifies a value to be returned to the function caller
+// Note: It is only for function we cannot use it elsewhere
