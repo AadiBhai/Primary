@@ -33,3 +33,15 @@ b = b - 1
 while(b > 0):
     print(b)
     b = b - 1
+
+print("")
+# We can also do this
+z = 0
+while True:
+    print(z)
+    z = z + 1
+    if (z == 11):
+        break
+# We know the break and continue statement
+# break statement terminates the loop and 
+#continue statement skip the rest of the loop statement and causes the next operation to occure
