@@ -1,3 +1,4 @@
+// Attribute Methods
 let first = document.getElementById("first")
 let a = first.getAttribute("class") // used to get the value of an attribute
 console.log(a)
