@@ -9,6 +9,7 @@ import time # importing time module
 
 # program which greet you according to time
 interval = time.strftime('%H:%M:%S')
+print(interval)
 if (interval > '24:00:00' and interval < '12:00:00'):
     print('Good Morning Sir')
 elif (interval >= '12:00:00' and interval < '18:00:00'):
