@@ -30,16 +30,16 @@
        console.log(b)
        
        // Datatypes in js
-       d = null         // object contains nothing
-       e = 9.2          // Number represent any number
+       d = null         // null means nothing
+       e = 9.2          // Number means any number
        f = "String"     // string
        g = Symbol("sym")// symbol an immutable and unique type
        h = true         // boolan
        i = BigInt(1646) // BigInt is for larger intiger numbers
        j = undefined    // undefined means variable is yet to define it may be define later
-       k = //undefined can also be defined as this
+       k = // undefined can also be defined as this means without specifying it
        
-           console.log(typeof d)
+       console.log(typeof d)
        console.log(typeof e)
        console.log(typeof f)
        console.log(typeof g)
