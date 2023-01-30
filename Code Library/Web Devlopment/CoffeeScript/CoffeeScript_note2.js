@@ -4,7 +4,7 @@
        let
        const*/
 
-       var a = 1  // var is globally scope means it will give same value throughout the code and 'a' is a variable here
+       var a = 1  // var is globally scoped means it will give same value throughout the code and 'a' is a variable here
        {
            var a = 2
            console.log(a)
