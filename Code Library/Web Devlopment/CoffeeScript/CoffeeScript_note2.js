@@ -6,7 +6,7 @@
 
        var a = 1  // var is globally scoped means it will give same value throughout the code and 'a' is a variable here
        {
-           var a = 2
+           var a = 2 // This will just update the value of a, means we are assigning new value to a.
            console.log(a)
        }
        console.log(a)
